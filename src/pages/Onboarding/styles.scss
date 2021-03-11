@@ -1,0 +1,32 @@
+.onboarding {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+
+  &__content {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    flex-direction: column;
+    padding-top: 10rem;
+  }
+  &__title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__action {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+};

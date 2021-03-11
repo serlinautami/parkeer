@@ -1,0 +1,37 @@
+.login {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+
+  &__header {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  &__title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  &__body {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  &__footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: .75rem;
+  }
+
+  &__footer-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #30475E;
+  }
+}
