@@ -15,12 +15,12 @@ const Login = () => {
           <Form>
             <FormGroup>
               <FormLabel>Email</FormLabel>
-              <FormInput placeholder="your@mail.com" />
+              <FormInput type="email" placeholder="your@mail.com" />
             </FormGroup>
 
             <FormGroup>
               <FormLabel>Password</FormLabel>
-              <FormInput placeholder="your@mail.com" />
+              <FormInput type="password" placeholder="********" />
             </FormGroup>
             <div style={{ height: 12 }}></div>
             <Button>Masuk</Button>

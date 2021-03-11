@@ -16,20 +16,20 @@ const Register = () => {
 
             <FormGroup>
               <FormLabel>Nama Lengkap</FormLabel>
-              <FormInput placeholder="your@mail.com" />
+              <FormInput placeholder="your name" />
             </FormGroup>
 
             <FormGroup>
               <FormLabel>Email</FormLabel>
-              <FormInput placeholder="your@mail.com" />
+              <FormInput type="email" placeholder="your@mail.com" />
             </FormGroup>
 
             <FormGroup>
               <FormLabel>Password</FormLabel>
-              <FormInput placeholder="your@mail.com" />
+              <FormInput type="password" placeholder="*******" />
             </FormGroup>
             <div style={{ height: 12 }}></div>
-            <Button>Masuk</Button>
+            <Button>Daftar</Button>
           </Form>
         </div>
         <div className="register__footer">
